@@ -1,3 +1,5 @@
+// Link para o problema: https://leetcode.com/problems/sort-array-by-parity/description/
+
 int* sortArrayByParity(int* nums, int numsSize, int* returnSize) {
     int* resultado = (int*)malloc(numsSize * sizeof(int)); // Aloca memória para o array resultante
     int PosPar = 0; // Posição inicial para armazenar números pares no início do array
